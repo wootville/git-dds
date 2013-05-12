@@ -1,0 +1,285 @@
+<html>
+<head>
+  <meta charset='utf-8'>
+  <title>Coop git challenge!</title>
+
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+  <style type="text/css">
+    body {
+      padding-top: 20px;
+      padding-bottom: 40px;
+    }
+
+    /* Custom container */
+    .container-narrow {
+      margin: 0 auto;
+      max-width: 900px;
+    }
+    .container-narrow > hr {
+      margin: 30px 0;
+    }
+
+    /* Main marketing message and sign up button */
+    .jumbotron {
+      margin: 60px 0;
+      text-align: center;
+    }
+    .jumbotron h1 {
+      font-size: 72px;
+      line-height: 1;
+    }
+    .jumbotron .btn {
+      font-size: 21px;
+      padding: 14px 24px;
+    }
+
+    h1 {
+      font-size: 50px;
+      margin-bottom: 30px;
+    }
+    img {
+      width: 100%;
+    }
+
+    /* Supporting marketing content */
+    .marketing {
+      margin: 60px 0;
+    }
+    .marketing p + h4 {
+      margin-top: 28px;
+    }
+
+    .split-exercise {
+      margin-bottom: 20px
+    }
+
+    #task2 img {
+      width: 50%;
+    }
+
+    #blinking-text {
+      color: red;
+    }
+
+    .btn {
+      margin-bottom: 15px;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="jumbotron">
+    <h1>HEJ HEJ!</h1>
+    <p>You're looking <strong>great</strong> today. I hope you're both ready to get your hands dirty with some HTML and some GIT(hub).</p>
+    <hr>
+  </div>
+  <div class="container-narrow">
+    <section>
+      <p class="alert alert-info">This is a cooperative exercise. You should each have your laptops out.</p>
+      <h1>Protips</h1>
+      <ul>
+        <li>Make your life easier with a github app. (<a href="http://mac.github.com/" target="_blank">Mac</a>, <a href="http://windows.github.com/">Windows</a>)</li>
+        <li>If ever you're stuck, Github has great docs. (<a href="https://help.github.com/categories/31/articles" target="_blank">Mac</a>, <a href="https://help.github.com/categories/58/articles" target="_blank">Windows</a>) </li>
+      </ul>
+    </section>
+    <hr>
+
+
+
+
+    <section>
+      <h1>Getting started</h1>
+      <p>Great. So one of you is going to be Team Member 1, and the other one is going to be Team Member 2. <br/>I don't care how you decide who is who, but you have to pick now...</p>
+      <p>...</p>
+      <p>...</p>
+      <p>...</p>
+      <p>Have you decided yet? Good. This is your team:</p>
+      <img src="img/team.jpg">
+    </section>
+    <hr>
+
+
+
+    <section>
+      <h1>Exercise 1</h1>
+      <p>So both of you are going to be working on a <a href="https://help.github.com/articles/fork-a-repo" target="_blank">fork</a> of this website, but on separate laptops.</p>
+      <p>Follow the next steps according to which team member you are.</p>
+      <p>If you finish before your teammate does, wait for them before continuing; And help them out if they're stuck!</p>
+      <div id="task1" class="row-fluid split-exercise">
+        <div class="span6">
+          <h2>Team Member 1</h2>
+          <ol>
+            <li>Fork <a href="https://github.com/pushmatrix/git-dds" target='_blank'>this repo</a>.</li>
+            <li>Add your teammate as a collaborator on your fork.</li>
+            <li>Clone the fork to your laptop.</li>
+            <li>Open the <code>index.html</code> file in your browser.</li>
+            <li>Open the <code>index.html</code> file in your code editor.</li>
+          </ol>
+        </div>
+        <div class="span6">
+          <h2>Team Member 2</h2>
+
+          <ol>
+            <li>Watch/help your teammate with their first step. Back massage?</li>
+            <li>When your teammate is done, clone their fork to your laptop.</li>
+            <li>Open the <code>index.html</code> file in your browser.</li>
+            <li>Open the <code>index.html</code> file in your code editor.</li>
+            <li>Useless step added for symmetry.</li>
+          </ol>
+        </div>
+      </div>
+        <p>At this point you should both have the code open on your laptops. In your browser, you should be looking at the local copy of <code>index.html</code>&mdash; <strong>not</strong> the one at http://pushmatrix.github.com/git-dds.</p>
+    </section>
+    <hr>
+
+
+
+
+    <section>
+      <h1>Exercise 2</h1>
+      <p>I feel like I don't know you well enough. Let's change that.</p>
+      <p class="alert alert-info">Remember that you are doing this on separate laptops; Only complete the section according to which team member you are.</p>
+      <div id="task2" class="row-fluid split-exercise">
+        <div class="span6">
+          <h2>Team Member 1</h2>
+
+          <h4>Name</h4>
+          <p>Replace this text with your name.</p>
+
+          <h4>Interests</h4>
+          <p>Replace this text with 3 interests. (ex: Cricket, Flying kites, and hard alcohol)</p>
+
+          <h4>Favourite Food</h4>
+          <p>Replace this text with your favourite food (ex: Fried liver)</p>
+
+          <h4>Profile Picture</h4>
+          <img src="img/instruct.jpg">
+        </div>
+        <div class="span6">
+          <h2>Team Member 2</h2>
+
+          <h4>Name</h4>
+          <p>Replace this text with your name.</p>
+
+          <h4>Interests</h4>
+          <p>Replace this text with 3 interests. (ex: Pottery, High-fives, and making sausages)</p>
+          <h4>Favourite Food</h4>
+
+          <p>Replace this text with your favourite food (ex: Canned beans)</p>
+          <h4>Profile Picture</h4>
+          <img src="img/instruct.jpg">
+        </div>
+      </div>
+      <p>Perfect! Now you're probably wondering how to get your teammate's changes on your computer. Let the sharing begin!</p>
+      <p>Follow these steps:</p>
+      <ol>
+        <li>Open your github app.</li>
+        <li>Notice that the <code>index.html</code> file has some changes to it: the changes you just made!</li>
+        <li>Type in a commit message to describe what update you are making. Example: <code>I updated my bio on the page!</code></li>
+        <li>Press commit.</li>
+        <li>Refresh the webpage.</li>
+      </ol>
+
+      <img src="img/ponder.jpg"/>
+
+      <p>Hmmm...nothing changed; Your teammate's stuff is not there, and if you check your repo on github.com, your commit is not there! The reason is because you haven't synced your changes to github yet.</p>
+      <p>To make it work, press on the sync button. Refresh the page, and you should see your teammate's changes.</p>
+      <h2>OH YEAH!</h2>
+      <img src="img/ohyeah.jpg">
+      <h2>You did it!</h2>
+      <small>(But you're not done yet)</small>
+    </section>
+    <hr>
+
+
+
+
+
+    <section>
+      <h1>Exercise 3</h1>
+      <p id="blinking-text">I should be <strong>red</strong> and blinking! If I'm not, then something is wrong.</p>
+      <p>Admire the text above. It's beautiful, isn't it?</p>
+      <p><strong>Javascript</strong> is what's making the text blink. You can see the code inside <code>index.html</code>. Can you find it?</p>
+      <p><strong>CSS</strong> is what's making the text red. It is also in <code>index.html</code>. Can you find it?</p>
+
+      <p>Sometimes it's good to have your css and javascript in the same files as your html; normally it's when you're just starting a project. But quickly your CSS and javascript will become big, and it will create a MASSIVE html file that is pretty confusing.</p>
+      <p>That's why it's best to split them into their own files.</p>
+      <div id="task3" class="row-fluid split-exercise">
+        <div class="span6">
+          <h2>Team Member 1</h2>
+          <ol>
+            <li>Take all the CSS and put it in <code>main.css</code> inside the <code>css</code> directory. Don't forget to save your <code>index.html</code>.</li>
+            <li>Refresh your page. Make sure the text is still red. If it's not, you need to link the <code>main.css</code> file to your html.</li>
+            <li>Commit &amp; sync your changes to github.</li>
+          </ol>
+        </div>
+        <div class="span6">
+          <h2>Team Member 2</h2>
+          <ol>
+            <li>Take all the javascript and put it in <code>main.js</code> inside the <code>js</code> directory. Don't forget to save your <code>index.html</code>.</li>
+            <li>Refresh your page. Make sure the text is still blinking. If it's not, you need to link the <code>main.js</code> file to your html.</li>
+            <li>Commit &amp; sync your changes to github.</li>
+          </ol>
+        </div>
+      </div>
+      <p>Both of your projects should now be in sync. The javascript & CSS should be out of your <code>index.html</code>.</p>
+      <h4>You make a great team!</h4>
+      <img src="img/team2.jpg">
+    </section>
+    <hr>
+
+
+
+
+
+    <section>
+      <h1>Exercise 4</h1>
+      <p>Here's one of my favourite quotes:</p>
+      <blockquote>&ldquo;YEEEEEEEAAAAAHHHHH BOYYYYYYYYYYYYYYYYYYYYYY!!!&rdquo; &mdash; Flava Flav</blockquote>
+
+      <p>Until now you've been changing separate areas of the code. But what happens when you both edit the same thing at the same time!?</p>
+      <p>To find out, let's have a race. Countdown from 3, and then complete the following:</p>
+      <div id="task4" class="row-fluid split-exercise">
+        <div class="span6">
+          <h2>Team Member 1</h2>
+          <ol>
+            <li>Change the quote above to something you think is even more awesome. It must be different from your teammate's.</li>
+            <li>Commit &amp; sync your changes to github.</li>
+          </ol>
+        </div>
+        <div class="span6">
+          <h2>Team Member 2</h2>
+          <ol>
+            <li>Change the quote above to something you think is even more awesome. It must be different from your teammate's.</li>
+            <li>Commit &amp; sync your changes to github.</li>
+          </ol>
+        </div>
+      </div>
+      <p>Let me guess what happened. One of you(clearly the cooler one) was able to sync without a problem. The other one got some message complaining about 'resolving merge conflicts'.</p>
+      <p>How do you resolve it? Something like this:</p>
+      <img src="img/duel.png"/><br><br>
+      <a class="btn" href="http://bit.ly/11wyw9o" target="_blank">Click here for the answer!</a>
+      <p>Once the conflicts are resolved, make sure that both of your laptops are in sync. Then high-five each other and yell out your <a href="http://www.youtube.com/watch?v=_QDAT1PlVyw" target="_blank">team battlecry.</a></p>
+      <small>(If you haven't heard anyone in the class make those noises yet, then you're the first team to get here. Yay!)</small>
+    </section>
+
+    <hr>
+  </div>
+
+  <!-- Yay! You've found me. -->
+  <script type="text/javascript">
+    window.onload = function() {
+      var node = document.getElementById('blinking-text');
+      setInterval(function() {
+        visibility = node.style.visibility;
+        if (visibility == "") {
+          node.style.visibility = "hidden";
+        } else {
+          node.style.visibility = "";
+        }
+      }, 800);
+    }
+  </script>
+</body>
+</html>
